@@ -1,0 +1,106 @@
+Bottle v0.12.17 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8181/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "./main.py", line 145, in <module>
+    run(host='0.0.0.0', port=8181)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 3131, in run
+    server.run(app)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 2783, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 160, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/local/lib/python3.5/socketserver.py", line 440, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 51, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/socketserver.py", line 454, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+  File "./main.py", line 142
+    @@route('/DEBUG', method=['OPTIONS', 'POST'])
+     ^
+SyntaxError: invalid syntax
+  File "./main.py", line 142
+    @@route('/DEBUG', method=['OPTIONS', 'POST'])
+     ^
+SyntaxError: invalid syntax
+  File "./main.py", line 142
+    @@route('/DEBUG', method=['OPTIONS', 'POST'])
+     ^
+SyntaxError: invalid syntax
+Bottle v0.12.17 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:80/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "./main.py", line 148, in <module>
+    run(host='0.0.0.0', port=80)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 3131, in run
+    server.run(app)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 2783, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 160, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/local/lib/python3.5/socketserver.py", line 440, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 51, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/socketserver.py", line 454, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Bottle v0.12.17 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:80/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "./main.py", line 148, in <module>
+    run(host='0.0.0.0', port=80)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 3131, in run
+    server.run(app)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 2783, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 160, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/local/lib/python3.5/socketserver.py", line 440, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 51, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/socketserver.py", line 454, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Bottle v0.12.17 server starting up (using WSGIRefServer())...
+Listening on http://localhost:8080/
+Hit Ctrl-C to quit.
+
+/usr/local/lib/python3.5/site-packages/bottle.py:3133: ResourceWarning: unclosed <socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8080)>
+  pass
+Bottle v0.12.17 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "./main.py", line 148, in <module>
+    run(host='0.0.0.0', port=8080, debug=True)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 3131, in run
+    server.run(app)
+  File "/usr/local/lib/python3.5/site-packages/bottle.py", line 2783, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 160, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/local/lib/python3.5/socketserver.py", line 440, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.5/wsgiref/simple_server.py", line 51, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/local/lib/python3.5/socketserver.py", line 454, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
